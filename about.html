@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>About</title>
+    <style>
+        .paragraph{
+            background-color: chocolate;
+        }
+        #one{
+            color: red;
+        }
+        #two{
+            color: indigo;
+        }
+        #three{
+            color: limegreen;
+        }
+        #one,#two,#three{
+            background-color: orangered;
+        }
+        .text{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 900;
+            font-size: x-large;
+            font-style: italic;
+            letter-spacing: 10px;
+            line-height: 50px;
+            text-transform: uppercase;
+            text-align: justify;
+        }
+        h1{
+            padding: 10px;
+            border: 10px double green;
+            margin: 10px 20px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+            margin-right: 40px;
+        }
+    </style>
 </head>
 
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid nulla totam sit eveniet perferendis,
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit neque quas, at corporis eligendi quam accusantium optio sint laborum! Debitis.</p>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid nulla totam sit eveniet perferendis,
         amet saepe maxime quisquam minus dolorem, nihil fuga tenetur asperiores hic suscipit doloribus commodi voluptas
         laudantium cupiditate delectus dolorum corrupti voluptatum!
         <br> <hr> Aperiam earum suscipit itaque minima architecto
@@ -15,11 +51,12 @@
         molestias, modi, asperiores debitis recusandae amet nihil assumenda quae reiciendis eius. Quam commodi, harum
         omnis in fuga blanditiis maxime, architecto nulla praesentium minima quidem et eius dolores. Aperiam, animi
         veniam.</p>
+        <h1 >Box Model</h1>
     <img src="./assets/image.png" alt="KPRCAS" width="500px" height="500px">
     <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
+        <li id="one">One</li>
+        <li id="two">Two</li>
+        <li id="three">Three</li>
     </ul>
     <ol>
         <li>one</li>

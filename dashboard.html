@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 </head>
+
 <body>
-    <header>
+    <header style="position: sticky; top: 0;">
         <h1>Header</h1>
         <nav>
             <ul>
@@ -17,20 +19,22 @@
             </ul>
         </nav>
     </header>
-    <section style="height: 500px;" id="home">
+    <section style="position: fixed; height: 500px; border: 2px solid red;" id="home">
         <div>Home</div>
     </section>
     <section style="height: 500px;" id="about">
         <div>about</div>
     </section>
-    <section style="height: 500px;" id="skills">
+    <section style="position: relative; top: 50px; left: 50px; height: 500px; border: 1px solid green;" id="skills">
         <div>skills</div>
+        <section style="height: 500px; position: absolute; top: 50px; left: 20px;" id="contact">
+            <div>contact</div>
+        </section>
     </section>
-    <section style="height: 500px;" id="contact">
-        <div>contact</div>
-    </section>
+
     <footer>
         <div>Footer</div>
     </footer>
 </body>
+
 </html>
